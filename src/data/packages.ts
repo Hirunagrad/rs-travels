@@ -1,0 +1,42 @@
+export const packages = [
+  {
+    id: 1,
+    title: "The Cultural Triangle",
+    duration: "3 Days / 2 Nights",
+    places: ["Sigiriya", "Dambulla", "Kandy"],
+    description: "Immerse yourself in Sri Lanka's rich history. Explore the iconic Sigiriya Lion Rock, the sacred Dambulla Cave Temple, and the Temple of the Tooth Relic in Kandy, complete with a traditional cultural dance show.",
+    highlights: ["Sigiriya Rock Fortress", "Dambulla Cave Temple (UNESCO)", "Village Safari", "Kandy Temple of Tooth", "Cultural Dance Show"],
+    price: "Contact for tailored price",
+    image: "https://picsum.photos/seed/sigiriya/800/600", 
+  },
+  {
+    id: 2,
+    title: "Hill Country & Tea Trails",
+    duration: "4 Days / 3 Nights",
+    places: ["Kandy", "Nuwara Eliya", "Ella"],
+    description: "Journey through the misty mountains and lush tea estates. Experience the world-famous scenic train ride to Ella, visit cascading waterfalls, and enjoy the cool climate of Nuwara Eliya.",
+    highlights: ["Scenic Train Ride (Nanu Oya to Ella)", "Nine Arch Bridge", "Tea Factory & Garden Tour", "Ramboda Waterfall", "Ambuluwawa Tower"],
+    price: "Contact for tailored price",
+    image: "https://picsum.photos/seed/ella/800/600",
+  },
+  {
+    id: 3,
+    title: "Wild Safari & Southern Beaches",
+    duration: "5 Days / 4 Nights",
+    places: ["Yala/Udawalawe", "Mirissa", "Galle"],
+    description: "The perfect blend of adventure and relaxation. Spot majestic elephants and leopards on a thrilling wildlife safari, go whale watching, and unwind on breathtaking southern beaches.",
+    highlights: ["Wildlife Safari", "Whale Watching", "Surfing & Snorkeling", "Galle Fort", "Beach Relaxation"],
+    price: "Contact for tailored price",
+    image: "https://picsum.photos/seed/safari/800/600", 
+  },
+  {
+    id: 4,
+    title: "Ultimate Round Tour",
+    duration: "7+ Days",
+    places: ["Island Wide"],
+    description: "The complete Sri Lankan experience tailor-made just for you. From ancient ruins and misty mountains to thrilling safaris and pristine beaches. You choose the hotels, we handle the rest.",
+    highlights: ["Custom Travel Plan", "24/7 Airport Pickup", "Comfortable Private Car", "Friendly Local Expert Guide"],
+    price: "Contact for tailored price",
+    image: "https://picsum.photos/seed/roundtour/800/600",
+  }
+];
