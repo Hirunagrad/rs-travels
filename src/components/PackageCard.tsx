@@ -15,9 +15,9 @@ interface TourPackage {
 // 2. Replace 'any' with the new TourPackage type
 export default function PackageCard({ pkg }: { pkg: TourPackage }) {
   return (
-    <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 border border-slate-100">
-      <div className="relative h-48 w-full">
-        <Image src={pkg.image} alt={pkg.title} fill className="object-cover" />
+    <div className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 group">
+      <div className="relative h-48 w-full overflow-hidden">
+        <Image src={pkg.image} alt={pkg.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold text-slate-800 mb-2">{pkg.title}</h3>
