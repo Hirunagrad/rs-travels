@@ -100,7 +100,7 @@ export default function Home() {
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ margin: "-100px", once: false }}
           >
             <motion.div variants={fadeUp} transition={{ duration: 0.5 }} className="flex flex-col items-center group">
               <div className="p-4 bg-green-50 rounded-full mb-4 group-hover:bg-green-100 transition-colors duration-300">
@@ -143,7 +143,7 @@ export default function Home() {
             className="flex justify-between items-end mb-10"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.6 }}
           >
             <div>
@@ -167,7 +167,7 @@ export default function Home() {
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, margin: "-50px" }}
+            viewport={{ margin: "-50px", once: false }}
           >
             {packages.slice(0, 3).map((pkg: TourPackage) => (
               <motion.div key={pkg.id} variants={fadeUp} transition={{ duration: 0.5 }}>
@@ -192,7 +192,7 @@ export default function Home() {
           className="max-w-7xl mx-auto px-4 text-center"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-50px" }}
+          viewport={{ margin: "-50px", once: false }}
           variants={staggerContainer}
         >
           <motion.h2 variants={fadeUp} className="text-3xl font-bold text-slate-800 mb-2">

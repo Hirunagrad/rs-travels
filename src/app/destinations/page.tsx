@@ -201,7 +201,7 @@ export default function DestinationsPage() {
           className="mt-20 text-center bg-white rounded-3xl p-10 shadow-sm border border-slate-100"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Ready to explore these beautiful places?</h2>

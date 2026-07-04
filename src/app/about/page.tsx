@@ -82,7 +82,7 @@ export default function AboutPage() {
           className="mt-24 mb-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-50px" }}
+          viewport={{ margin: "-50px", once: false }}
           variants={{
             hidden: { opacity: 0 },
             visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
